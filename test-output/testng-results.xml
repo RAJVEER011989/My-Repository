@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47453" started-at="2017-09-02T04:25:30Z" finished-at="2017-09-02T04:26:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47453" started-at="2017-09-02T04:25:30Z" finished-at="2017-09-02T04:26:17Z">
+      <class name="ATTEST.ParallelBrowser">
+        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:ATTEST.ParallelBrowser@dbe50f]" name="testTwo" duration-ms="47419" started-at="2017-09-02T09:55:30Z" finished-at="2017-09-02T09:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:ATTEST.ParallelBrowser@dbe50f]" name="testOne" duration-ms="41154" started-at="2017-09-02T09:55:30Z" finished-at="2017-09-02T09:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- ATTEST.ParallelBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

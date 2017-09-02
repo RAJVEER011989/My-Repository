@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="First Value" value="Rajveer"></parameter>
+<parameter name="Last Value" value="Singh"></parameter>
+  <test name="FirstNameTes">
+  <!-- <parameter name="First Value" value="Navjot"></parameter> -->
+  <classes>
+  <class name="ATTEST.Parameterization">
+  
+<methods>
+  <include name ="testOne"></include>
+ 
+  </methods>
+  </class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="SecondNameTest">
+  <parameter name="Last Value" value="Vivek"></parameter>
+  <classes>
+  <class name="ATTEST.Parameterization">
+  
+<methods>
+  <include name ="testTwo"></include>
+ 
+  </methods>
+  </class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="ThirdNameTest">
+  <parameter name="First Value" value="Vivek"></parameter>
+  <parameter name="Last Value1" value="P"></parameter>
+  <classes>
+  <class name="ATTEST.Parameterization">
+  
+<methods>
+  <include name ="testThree"></include>
+ 
+  </methods>
+  </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
